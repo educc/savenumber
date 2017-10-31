@@ -23,7 +23,7 @@ var app = {};
 		b: 9,
 	};
 	THIS.MIN_LENGTH = 2;
-	THIS.STEP_LENGTH = 0.25;
+	THIS.STEP_LENGTH = 0;
 	THIS.length = THIS.MIN_LENGTH;
 	THIS.corrects = 0;
 	THIS.elShowNumber = document.getElementById("out");
